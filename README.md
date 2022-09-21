@@ -9,8 +9,10 @@ This is not a package - it's a full Laravel project that you should use as a sta
 - Run `composer install`
 - Run `php artisan key:generate`
 - Run `php artisan migrate --seed` (it has some seeded data - see below)
+- launch the main URL via: `php artisan serve` then after that's can view dashboard
 - That's it: launch the main URL and login with default credentials `admin@admin.com` - `password`
 
+# How use API in this project
 - can use api for postman: `domain-name.example/api/v1/ads` view all ads - required method `GET`
 - can use api for postman: `domain-name.example/api/v1/ads/create` create new ads - required method `POST`
 - can use api for postman: `domain-name.example/api/v1/ads/update/{id}` edit {id} ads - required method `PUT`
