@@ -11,6 +11,7 @@ This is not a package - it's a full Laravel project that you should use as a sta
 - Run `php artisan migrate --seed` (it has some seeded data - see below)
 - launch the main URL via: `php artisan serve` then after that's can view dashboard
 - That's it: launch the main URL and login with default credentials `admin@admin.com` - `password`
+- How can I display images? you can use the command line this `php artisan storage:link`
 
 # How use API in this project
 - can use api for postman: `domain-name.example/api/v1/ads` view all ads - required method `GET`
