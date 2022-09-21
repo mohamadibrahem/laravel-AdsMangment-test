@@ -18,6 +18,11 @@ This is not a package - it's a full Laravel project that you should use as a sta
 - Run `php artisan migrate --seed` (it has some seeded data - see below)
 - That's it: launch the main URL and login with default credentials `admin@admin.com` - `password`
 
+- can use api for postman: `domain-name.example/api/v1/ads` view all ads - required method `GET`
+- can use api for postman: `domain-name.example/api/v1/ads/create` create new ads - required method `POST`
+- can use api for postman: `domain-name.example/api/v1/ads/update/{id}` edit {id} ads - required method `PUT`
+- can use api for postman: `domain-name.example/api/v1/ads/{id}` delete {id} ads - required method `DELETE`
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
